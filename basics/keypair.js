@@ -13,6 +13,7 @@ const { privateKey, publicKey } = generateKeyPairSync("rsa", {
     },
 });
 
+console.clear();
 console.log(privateKey);
 console.log(publicKey);
 
