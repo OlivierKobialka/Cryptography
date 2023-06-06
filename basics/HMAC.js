@@ -1,5 +1,6 @@
 const { createHmac } = require("crypto");
 
+// hmac = hash-based message authentication code
 const key = "secret";
 const msg = "Message to be hashed";
 
